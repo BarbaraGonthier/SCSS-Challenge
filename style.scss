@@ -1,0 +1,47 @@
+$primary-color: orange;
+$secondary-color: black;
+$third-color : yellow;
+$margin : 100px;
+$font-size : 60px;
+$padding : 80px;
+$font-family: 'Almendra', serif;
+
+body {
+  color: $secondary-color;
+  font-size: $font-size;
+  font-family : $font-family;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $margin;
+}
+
+.ring {
+  padding : $padding;
+}
+
+@mixin ring ($size, $color) {
+  border : $size/10 solid;
+  border-radius : 50%;
+  width : $size;
+  height : $size;
+  color : $color;
+  box-shadow : inset $size/10 $size/10 $size/10, $size/10 $size/10 $size/10;
+}
+
+.ring-orange {
+  @include ring (80px, $primary-color);
+}
+
+.ring-yellow {
+  @include ring (150px, $third-color);
+}
+
+@for $i from 1 through 6 {
+  .ring-black-#{$i} {
+    @include ring ($i*25px, $secondary-color);
+  }
+}

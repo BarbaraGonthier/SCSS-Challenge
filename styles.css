@@ -1,0 +1,88 @@
+body {
+    color: black;
+    font-size: 60px;
+    font-family : 'Almendra', serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.ring {
+    padding: 100px;
+}
+
+.ring-orange {
+    border: 8px solid;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: orange;
+    box-shadow: inset 8px 8px 8px, 8px 8px 8px;
+}
+
+.ring-yellow {
+    border: 15px solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: yellow;
+    box-shadow: inset 15px 15px 15px, 15px 15px 15px;
+}
+
+.ring-black-1 {
+    border: 2.5px solid;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: black;
+    box-shadow: inset 2.5px 2.5px 2.5px, 2.5px 2.5px 2.5px;
+}
+
+.ring-black-2 {
+    border: 5px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: black;
+    box-shadow: inset 5px 5px 5px, 5px 5px 5px;
+}
+
+.ring-black-3 {
+    border: 7.5px solid;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    color: black;
+    box-shadow: inset 7.5px 7.5px 7.5px, 7.5px 7.5px 7.5px;
+}
+
+.ring-black-4 {
+    border: 10px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: black;
+    box-shadow: inset 10px 10px 10px, 10px 10px 10px;
+}
+
+.ring-black-5 {
+    border: 12.5px solid;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    color: black;
+    box-shadow: inset 12.5px 12.5px 12.5px, 12.5px 12.5px 12.5px;
+}
+
+.ring-black-6 {
+    border: 15px solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: black;
+    box-shadow: inset 15px 15px 15px, 15px 15px 15px;
+}
