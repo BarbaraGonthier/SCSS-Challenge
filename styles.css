@@ -1,7 +1,7 @@
 body {
     color: black;
     font-size: 60px;
-    font-family : 'Almendra', serif;
+    font-family: "Almendra", serif;
 }
 
 section {
@@ -12,7 +12,7 @@ section {
 }
 
 .ring {
-    padding: 100px;
+    padding: 80px;
 }
 
 .ring-orange {
@@ -40,6 +40,7 @@ section {
     height: 25px;
     color: black;
     box-shadow: inset 2.5px 2.5px 2.5px, 2.5px 2.5px 2.5px;
+    margin-left: 10%;
 }
 
 .ring-black-2 {
@@ -49,6 +50,7 @@ section {
     height: 50px;
     color: black;
     box-shadow: inset 5px 5px 5px, 5px 5px 5px;
+    margin-left: 20%;
 }
 
 .ring-black-3 {
@@ -58,6 +60,7 @@ section {
     height: 75px;
     color: black;
     box-shadow: inset 7.5px 7.5px 7.5px, 7.5px 7.5px 7.5px;
+    margin-left: 30%;
 }
 
 .ring-black-4 {
@@ -67,6 +70,7 @@ section {
     height: 100px;
     color: black;
     box-shadow: inset 10px 10px 10px, 10px 10px 10px;
+    margin-left: 40%;
 }
 
 .ring-black-5 {
@@ -76,6 +80,7 @@ section {
     height: 125px;
     color: black;
     box-shadow: inset 12.5px 12.5px 12.5px, 12.5px 12.5px 12.5px;
+    margin-left: 50%;
 }
 
 .ring-black-6 {
@@ -85,4 +90,5 @@ section {
     height: 150px;
     color: black;
     box-shadow: inset 15px 15px 15px, 15px 15px 15px;
+    margin-left: 60%;
 }
