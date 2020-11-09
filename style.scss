@@ -12,7 +12,7 @@ body {
   font-family : $font-family;
 }
 
-section {
+section, .rings {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,12 @@ section {
 
 .ring {
   padding : $padding;
+}
+
+.rings {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 @mixin ring ($size, $color) {
@@ -43,6 +49,6 @@ section {
 @for $i from 1 through 6 {
   .ring-black-#{$i} {
     @include ring ($i*25px, $secondary-color);
-    margin-left: (percentage((($i*10)/100)));
+    margin-left: -(percentage((($i*10)/1000)));
   }
 }
